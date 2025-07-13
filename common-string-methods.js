@@ -64,6 +64,36 @@ Complete the following tasks and assign the results to the specified variables. 
   - Extract the word "Bootcamp" from the string using slice and assign the result to a variable named extractedBootcamp.
 
 */
+//Activity 1:
+let sentence1 = "Learning JavaScript is fun!";
+let hasJS = sentence1.includes("JavaScript");
+let funPosition = sentence1.indexOf("fun");
+
+console.log("Includes 'JavaScript'? ", hasJavaScript);
+console.log("Position of 'fun':", funPosition);
+
+//Activity 2:
+let rawString = " CODE BOOTCAMP ";
+let trimmedLowercase = rawString.trim().toLowerCase();
+let swappedString = trimmedLowercase.replace("bootcamp", "javascript");
+
+console.log("Trimmed & lowercased:", trimmedLowercase);
+console.log("Replaced string:", swappedString);
+
+//Activity 3:
+let sentence2 = "Coding is fun and educational";
+let wordArray = sentence2.split(" ");
+
+console.log("Array of words:", wordArray);
+
+//Activity 4:
+let bootcamp = "Bootcamp";
+let firstChar = bootcamp.charAt(0);
+let sliceWord = bootcamp.slice(4);
+
+console.log("\nActivity 4:");
+console.log("First character:", firstChar);
+console.log("Extracted word:", sliceWord);
 
 //Starter Code
 let inputString = "  Welcome to the Coding Bootcamp! Learn JavaScript today.  ";
